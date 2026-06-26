@@ -1,7 +1,6 @@
 from kafka import KafkaConsumer
 import json
 
-
 consumer = KafkaConsumer(
     'transactions',
 
